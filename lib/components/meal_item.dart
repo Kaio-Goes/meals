@@ -12,9 +12,9 @@ class MealItem extends StatelessWidget {
         .pushNamed(AppRoutes.mealDetail, arguments: meal)
         .then((value) {
           if(value == null){
-            print('Sem resultado');
+            // print('Sem resultado');
           } else {
-            print('O nome da refeição é $value');
+            // print('O nome da refeição é $value');
           }
         });
   }
